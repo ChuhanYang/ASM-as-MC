@@ -1,5 +1,5 @@
-# ASM-as-MC
-
 Algorithm implementation and experiment codes  for the paper "Generalized Adaptive Smoothing Using Matrix Completion for Traffic State Estimation" 
 
-<img src="https://github.com/ChuhanYang/ASM-as-MC/blob/19a0be90526f55798aa2d06f550532d30c3ad155/ADMM_and_ASM_horizon.pdf" alt="image" width="500"/>
+Paper Abstract: The Adaptive Smoothing Method (ASM) is a data-driven approach for traffic state estimation. It interpolates unobserved traffic quantities by smoothing measurements along spatio-temporal directions defined by characteristic traffic wave speeds. The standard ASM consists of a superposition of two a priori estimates weighted by a heuristic weight factor. In this paper, we propose a systematic procedure to calculate the optimal weight factors. We formulate the a priori weights calculation as a constrained matrix completion problem, and efficiently solve it using the Alternating Direction Method of Multipliers (ADMM) algorithm. Our framework allows one to further improve the conventional ASM, which is limited by utilizing only one pair of congested and free flow wave speeds, by considering multiple wave speeds. Our proposed algorithm does not require any field-dependent traffic parameters, thus bypassing frequent field calibrations as required by the conventional ASM. Experiments using NGSIM highway data show that the proposed ADMM-based estimation incurs lower error than the ASM estimation.
+
+<img src="https://github.com/user-attachments/assets/14b84fa4-dc12-4fef-bd95-cd826a109343" alt="image" width="500"/>
