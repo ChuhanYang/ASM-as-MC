@@ -1,2 +1,3 @@
 # ASM-as-MC
- Adaptive Smoothing Method as Matrix Completion
+
+Algorithm implementation and experiment codes  for the paper "Generalized Adaptive Smoothing Using Matrix Completion for Traffic State Estimation" 
